@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css"/>
+        <style>
+         #flow-network {
+             width: 1200px;
+             height: 600px;
+             border: 1px solid lightgray;
+         }
+        </style>
+    </head>
+
+    <body>
+        <input type="file" id="csv-data-file"/>
+        <div id="flow-network"></div>
+        <script data-main="js/main.js" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    </body>
+</html>
